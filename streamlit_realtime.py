@@ -30,7 +30,7 @@ def object_detection_realtime():
     st.subheader("""
     This app detects objects in real-time from your webcam feed and displays the result in real-time
     """)
-    cap = cv2.VideoCapture(1)
+    cap = st.camera_input("Take a picture")
        
     my_placeholder = st.empty()
     while True:
