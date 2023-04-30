@@ -13,7 +13,7 @@ def object_detection_realtime():
     SCORE_THRESHOLD = 0.5
     IOU_THRESHOLD = 0.5
     config_path = 'yolov3.cfg'
-    weights_path = 'yolov3.weights'
+    weights_path = 'yolov3-tiny.weights'
     font_scale = 1
     thickness = 1
     url = "https://raw.githubusercontent.com/zhoroh/ObjectDetection/master/labels/coconames.txt"
